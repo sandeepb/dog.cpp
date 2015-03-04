@@ -1,0 +1,95 @@
+<HTML>
+<HEAD>
+<TITLE> UMBC CMSC202, Computer Science II, Lab3 - Introduction to C++ Classes</TITLE>
+<link REL="SHORTCUT ICON" HREF="http://www.csee.umbc.edu/~chang/umbcfavicon.ico">
+</HEAD>
+
+<BODY text="#000000" bgcolor="#FFFFFF">
+
+<P><HR>
+
+<H1> UMBC CMSC 202 Computer Science II </H1>
+
+
+<!-- * REPLACE TITLE HERE * -->
+<H2>Lab3: Introduction to C++ Classes</H2>
+
+
+<hr>
+
+
+<!-- * PURPOSE OF LAB HERE * -->
+
+<img src="dog.jpg"><br><br>
+
+In this lab you will learn how to <i>use</i> classes.
+
+<hr>
+
+<!-- * TABLE OF CONTENTS HERE * -->
+
+
+
+<!-- * LAB CONTENTS GO HERE * -->
+
+
+<a name="discussion"></a><h3>Discussion</h3>
+
+Topics:
+<ul>
+ <li>Classes vs. C Structures</li>
+ <li>Dog class (<a href="Dog.cpp">Dog.cpp</a>, <a href="Dog.h">Dog.h</a>)</li>
+</ul>
+
+<hr>
+<a name="cpp"></a><h3>C++ Classes Assignment: Dog</h3>
+
+Your assignment is to learn how to use the Dog class (<a href="Dog.cpp">Dog.cpp</a>, <a href="Dog.h">Dog.h</a>).<br><br>
+
+<b>Assignment:</b> Write a main() function, in a file called Lab3.cpp, that uses the Dog class in the following ways:
+<ul>
+ <li>Create at least two different dogs</li>
+ <li>Give the dogs to people</li>
+ <li>Abuse and pat the dogs several different times</li>
+ <li>Talk to the dogs</li>
+</ul>
+
+As you go through these actions, use the appropriate accessors to show information about the dog as it changes. You should not have to modify the Dog class.
+
+<br><br><b>Compiling:</b>  To compile your assignment, use the following commands:
+<ol>
+ <li><code>g++ -ansi -Wall -c Dog.cpp</code></li>
+ <li><code>g++ -ansi -Wall -c Lab3.cpp</code></li>
+ <li><code>g++ -ansi -Wall -o Lab3 Dog.o Lab3.o</code></li>
+</ol>
+
+
+<b>Sample Output:</b><br>
+Here is a sample output. Note that the assignment directions require you to do more than this.<br>
+
+<code>Creating dogs...<br>
+Dog1's name is: grep<br>
+Dog2's name is: Dr. Pepper<br>
+Dog1's age is 32 years<br>
+Setting Dog2's owner to Red Bull<br>
+Dog2's owner is Red Bull<br>
+Abusing Dog2...<br>
+Abusing Dog2...<br>
+Abusing Dog2...<br>
+Abusing Dog2...<br>
+Abusing Dog2...<br>
+Abusing Dog2...<br>
+Abusing Dog2...<br>
+Dog2 is sad<br>
+Dog1 says woof<br></code>
+<br>
+<b>Extra Credit (4 points):</b><br>
+<ol>
+ <li>Create a vector of dogs</li>
+ <li>Push back at least 5 different dogs with varying ages</li>
+ <li>Print out each dog's name along with its age</li>
+ <li>Sort the vector of dogs by age</li>
+ <li>Print out each dog's name along with its age</li>
+</ol>
+
+</body></html>
